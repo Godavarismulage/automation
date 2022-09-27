@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-27T09:30:59 IST" name="Suite" finished-at="2022-09-27T09:31:33 IST" duration-ms="33543">
+    <groups>
+      <group name="group">
+        <method signature="Sign_up.registerButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom.Sign_up@3a44431a]" name="registerButton" class="pom.Sign_up"/>
+        <method signature="signin_pom.Signin(java.lang.String,java.lang.String)[pri:0, instance:pom.signin_pom@2ea41516]" name="Signin" class="pom.signin_pom"/>
+      </group> <!-- group -->
+    </groups>
+    <test started-at="2022-09-27T09:30:59 IST" name="Test" finished-at="2022-09-27T09:31:33 IST" duration-ms="33543">
+      <class name="pom.signin_pom">
+        <test-method signature="Signin(java.lang.String,java.lang.String)[pri:0, instance:pom.signin_pom@2ea41516]" started-at="2022-09-27T09:31:08 IST" name="Signin" data-provider="Signin_pom1" finished-at="2022-09-27T09:31:15 IST" duration-ms="6703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[godavari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[godu897]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method signature="Signin(java.lang.String,java.lang.String)[pri:0, instance:pom.signin_pom@2ea41516]" started-at="2022-09-27T09:31:15 IST" name="Signin" data-provider="Signin_pom1" finished-at="2022-09-27T09:31:21 IST" duration-ms="6273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89765]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@$%th]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:pom.signin_pom@2ea41516]" started-at="2022-09-27T09:31:33 IST" name="Aftersuite" finished-at="2022-09-27T09:31:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- pom.signin_pom -->
+      <class name="pom.Home_pom">
+        <test-method signature="setup()[pri:0, instance:pom.Home_pom@fa49800]" started-at="2022-09-27T09:30:59 IST" name="setup" finished-at="2022-09-27T09:31:08 IST" duration-ms="9072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- pom.Home_pom -->
+      <class name="pom.Sign_up">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pom.Sign_up@3a44431a]" started-at="2022-09-27T09:30:59 IST" name="beforeTest" finished-at="2022-09-27T09:30:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="registerButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom.Sign_up@3a44431a]" started-at="2022-09-27T09:31:21 IST" name="registerButton" data-provider="Sign_up1" finished-at="2022-09-27T09:31:27 IST" duration-ms="5725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[godavarii]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mulge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[godavari@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[godu789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[08/08/2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9678986598]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hi hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerButton -->
+        <test-method signature="registerButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pom.Sign_up@3a44431a]" started-at="2022-09-27T09:31:27 IST" name="registerButton" data-provider="Sign_up1" finished-at="2022-09-27T09:31:33 IST" duration-ms="5726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mulge godavari sm  mulge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[godavari%@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[g8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[08/08/2067]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[96789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hi hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerButton -->
+      </class> <!-- pom.Sign_up -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
